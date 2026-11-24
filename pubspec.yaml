@@ -1,0 +1,26 @@
+name: nosmai_zegocloud_bridge
+description: Example app for nosmai_zegocloud_live - Nosmai effects livestreamed through ZEGOCLOUD.
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.6.0 <4.0.0'
+  flutter: '>=3.29.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Nosmai effects + ZEGOCLOUD livestreaming; no native code in this app.
+  nosmai_zegocloud_live:
+    path: packages/nosmai_zegocloud_live
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: 5.0.0
+
+flutter:
+  uses-material-design: true
+  # Drop .nosmai packages here; Nosmai's getLocalFilters() discovers them.
+  assets:
+    - assets/filters/

@@ -1,0 +1,31 @@
+name: nosmai_zegocloud_live
+description: >-
+  Livestream Nosmai beauty filters, AR effects, backgrounds and cloud filters
+  through ZEGO Express from Flutter on Android and iOS.
+repository: https://github.com/nosmai/nosmai_zegocloud_bridge
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: '>=3.6.0 <4.0.0'
+  flutter: '>=3.29.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  nosmai_effects_sdk: ^2.0.2
+  zego_express_engine: 3.21.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.nosmai.zegocloud_live
+        pluginClass: NosmaiZegoLivePlugin
+      ios:
+        pluginClass: NosmaiZegoLivePlugin

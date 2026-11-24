@@ -1,0 +1,43 @@
+PODS:
+  - Flutter (1.0.0)
+  - nosmai_effects_sdk (2.0.2):
+    - Flutter
+    - NosmaiCameraSDK (= 3.0.7)
+  - nosmai_zegocloud_live (1.0.0):
+    - Flutter
+    - nosmai_effects_sdk
+    - zego_express_engine
+  - NosmaiCameraSDK (3.0.7)
+  - zego_express_engine (3.21.0):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - nosmai_effects_sdk (from `.symlinks/plugins/nosmai_effects_sdk/ios`)
+  - nosmai_zegocloud_live (from `.symlinks/plugins/nosmai_zegocloud_live/ios`)
+  - zego_express_engine (from `.symlinks/plugins/zego_express_engine/ios`)
+
+SPEC REPOS:
+  trunk:
+    - NosmaiCameraSDK
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  nosmai_effects_sdk:
+    :path: ".symlinks/plugins/nosmai_effects_sdk/ios"
+  nosmai_zegocloud_live:
+    :path: ".symlinks/plugins/nosmai_zegocloud_live/ios"
+  zego_express_engine:
+    :path: ".symlinks/plugins/zego_express_engine/ios"
+
+SPEC CHECKSUMS:
+  Flutter: cabc95a1d2626b1b06e7179b784ebcf0c0cde467
+  nosmai_effects_sdk: 46cf5b65d29a19d72b48d47a777bb52d7d8f9be8
+  nosmai_zegocloud_live: b4d15965d70222826ad227b30f0d12915c35b854
+  NosmaiCameraSDK: b914cb19ea0f88faf537e726f0b09bfa20ba3bc7
+  zego_express_engine: 1164f43c703759f55e0751377425f660d15b2904
+
+PODFILE CHECKSUM: 53a6aebc29ccee84c41f92f409fc20cd4ca011f1
+
+COCOAPODS: 1.16.2
